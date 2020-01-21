@@ -1,0 +1,31 @@
+    #input{
+       
+        height: 1200px;
+        position: relative;
+        overflow: scroll;
+        top: 80px;
+        border: 2px solid black;
+    }
+
+    #output{
+        
+        height: 1200px;
+        position: relative;
+        overflow: scroll;
+        top: 80px;
+        border: 2px solid black;
+    }
+
+    
+    .float_center {
+        float: right;
+      
+        position: relative;
+        left: -50%; /* or right 50% */
+        text-align: left;
+      }
+      .float_center > .child {
+        position: relative;
+        left: 50%;
+      }
+    
